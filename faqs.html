@@ -1,0 +1,147 @@
+<!--
+Name: Mattew Amorelli
+
+Date: 11/29/2022
+
+File: index.html-->
+
+<!DOCTYPE HTML>
+<head>
+    <!--items for head-->
+    <title>FAQ | Matthew's Development Blog</title>
+    
+    <!--metas-->
+    <meta charset="utf-8">
+
+    <meta name="author" content="Matthew Amorelli">
+
+    <meta name="description" content="Some frequently asked questions about some the projects listed on the page">
+
+    <meta name="keywords" content="FAQs frequently asked questions press media">
+
+    <meta name="viewpoint" content="width=device-width, inital-scale=1.0">
+    <!--fonts-->
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=DM+Sans&family=Roboto:wght@100&display=swap" rel="stylesheet">
+   
+    
+    <!--reference to stylesheet-->
+    <link rel=stylesheet href="css\styles.min.css">
+
+    <!--icons-->
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon-32.png">
+
+    <link rel="shortcut icon" sizes ="192x192" href="images/android-icon.png">
+</head>
+
+
+<html lang="en">
+    
+
+
+
+<body>
+    
+    <!--header-->
+    <header>
+        <img src="images/lil-5k-logo.png" alt="lil-5k-logo">
+        
+    </header>
+
+<!--items for nav-->
+<nav class="tablet-and-desktop">
+<ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="faqs.html">FAQ</a></li>
+    <li><a href="projects.html">My Projects</a></li>
+</ul>
+</nav>
+
+<!--Items for main-->
+<main>
+
+<div class="paragraph questions-title">
+<h1>Questions</h1>
+<p>Some of the common questions that are about my projects or the webiste.</p>
+</div>
+
+<div class="paragraph questions">
+<h2>
+What made you compelled to make a personal webiste?
+</h2>
+<p>
+    Well since the beginning of the semester, I’ve wanted to host some of my programming projects. The time was right when one of my classes, beginning web development, for it’s final was to make a website. So the idea came to instead to just be a simple webpage to instead a website where I show my projects and sometimes share the source code, depending on the license.
+</p>
+</div>
+
+<div class="paragraph questions">
+    <h2>Any plans for the future?</h2>
+    <p>Will be uploading more projects, just not some in visual studio but arduino projects and java projects from my java classes or linux dotfiles, like for KDE desktop environment.</p>
+</div>
+
+
+
+
+
+
+
+<form class="paragraph form-title" method="get" action="FormProcessor.html" target="_blank">
+<h1>Any Questions or Comments?</h1>
+
+<div class="form-checkbox">
+<input type="checkbox" id="Questions" name="Question raidobutton" value="Questions">
+
+<label for="Questions">Question</label>
+
+
+<input type="checkbox" id="Comment" name="Comment raidobutton" value="Comments">
+<label for="Comment">Comment</label>
+</div>
+
+
+<div class="elements">
+<label id="textbox" for="NameTextBox">Name:</label>
+
+<textarea  name="Name" id="NameTextBox" row="1" col="10">Enter a name here</textarea>
+
+<label id="label" for="email">Email:</label>
+
+<input type="email" name="email" id="email">
+
+
+<label id="ComOrQdatetime-label" for="ComOrQdatetime">Today's Date:</label>
+<input type="datetime" name="ComOrQdatetime" id="ComOrQdatetime">
+
+<label for="Comments/QuestionsTextbox">Enter a Comment or question here:</label>
+<textarea name="labelForComments/QuestionsTextbox" id="CommentsQuestionsTextbox" row="15" col="100">Enter a Comment or question here:</textarea>
+
+<input type="submit" id="submit" value="submit" class="btn">
+<input type="reset" id="reset" value="Reset">
+</div>
+
+
+
+</form>
+
+</main>
+
+
+<!--Items for footer-->
+<footer>
+    <div class="copyright">
+        <p>Linux® is the registered trademark of Linus Torvalds in the U.S. and other countries.</p>
+    </div>
+
+    <div class="social">
+        <a href="https://github.com/lil5kisawsome" target="_blank"><img src="images/GitHub-Mark-Light-64px.png" alt="github logo"></a>
+    </div>
+</footer>
+
+</body>
+</html>
